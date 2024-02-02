@@ -38,9 +38,11 @@ body .typing-container .input-cursor {
 
 .logos {
   overflow: hidden;
-  padding: 60px 0;
+  padding: 10px 0;
   white-space: nowrap;
   position: relative;
+  background-color: #333;
+  opacity: 70%;
 }
 
 .logos:before,
@@ -71,8 +73,8 @@ body .typing-container .input-cursor {
 }
 
 .logos-slide img {
-  height: 50px;
-  margin: 0 20px;
+  height: 30px;
+  margin: 0 16px;
   -webkit-filter: grayscale(1) brightness(0.1) saturate(0%);
   filter: grayscale(1) brightness(0.1) saturate(0%);
 }
