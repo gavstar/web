@@ -68,8 +68,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #ffffff;
+  --bs-body-bg: #000000;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -3870,11 +3870,11 @@ fieldset:disabled .btn {
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
-  --bs-navbar-brand-margin-end: 1rem;
-  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-margin-end: 3rem;
+  --bs-navbar-brand-font-size: 2.25rem;
   --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
-  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-nav-link-padding-x: 1rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
   --bs-navbar-toggler-font-size: 1.25rem;
@@ -3910,6 +3910,7 @@ fieldset:disabled .btn {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  font-family: 'Geo', sans-serif;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -8492,8 +8493,8 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0.7;
+  background-color: rgba(0, 0, 0, var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
@@ -11160,7 +11161,7 @@ fieldset:disabled .btn {
   }
 }
 body {
-  background: url('https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg')
+  background: url('https://www.creativefabrica.com/wp-content/uploads/2021/11/12/dark-black-wave-abstract-background-3d-Graphics-20054598-1.jpg')
     no-repeat center center fixed;
   background-size: cover;
 }

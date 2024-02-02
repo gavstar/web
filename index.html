@@ -8,7 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Gavstar</title>
+    <title>gavstar - Web Development, Data Analytics, Cybersecurity</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -25,12 +25,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geo&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#!">Gavstar</a>
+        <a class="navbar-brand" href="#!">gavstar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -49,8 +55,15 @@
             </li>
             <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#!">Services</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Gallery</a>
+            </li>
             <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
           </ul>
+          <button>Download Resume</button>
         </div>
       </div>
     </nav>
@@ -59,9 +72,32 @@
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
           <div class="col-lg-6">
+            <div class="logos">
+              <div class="logos-slide">
+                <img src="./logos/3m.svg" />
+                <img src="./logos/barstool-store.svg" />
+                <img src="./logos/budweiser.svg" />
+                <img src="./logos/buzzfeed.svg" />
+                <img src="./logos/forbes.svg" />
+                <img src="./logos/macys.svg" />
+                <img src="./logos/menshealth.svg" />
+                <img src="./logos/mrbeast.svg" />
+              </div>
+
+              <div class="logos-slide">
+                <img src="./logos/3m.svg" />
+                <img src="./logos/barstool-store.svg" />
+                <img src="./logos/budweiser.svg" />
+                <img src="./logos/buzzfeed.svg" />
+                <img src="./logos/forbes.svg" />
+                <img src="./logos/macys.svg" />
+                <img src="./logos/menshealth.svg" />
+                <img src="./logos/mrbeast.svg" />
+              </div>
+            </div>
             <h1 class="mt-5">
               <div class="typing-container">
-                <span id="sentence" class="sentence">Data </span>
+                <span id="sentence" class="sentence"></span>
                 <span id="feature-text"></span>
                 <span class="input-cursor"></span>
               </div>
@@ -76,44 +112,42 @@
         </div>
       </div>
     </section>
-    <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script>
       const carouselText = [
         {
-          text: 'Analytics',
+          text: 'Web Development',
           color: 'red',
           desc: 'Donec vestibulum facilisis odio, ac accumsan risus efficitur sed. Fusce gravida fringilla diam, eu vestibulum lacus pretium non. Sed ut egestas lacus.',
-          img: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg',
+          img: 'https://welltec.com/media/6048/company-hero-sustainable-1920x1080.jpg',
         },
         {
-          text: 'Science',
+          text: 'Data Analytics',
           color: 'orange',
           desc: 'Vestibulum id finibus mi, at vulputate neque. Fusce maximus gravida massa, vel interdum lorem interdum in. Aenean eu fringilla risus.',
-          img: 'https://images.pexels.com/photos/256559/pexels-photo-256559.jpeg',
+          img: 'https://blog.hubspot.com/hs-fs/hubfs/web-development.webp?width=595&height=400&name=web-development.webp',
         },
         {
-          text: 'Mining',
+          text: 'Data Science',
           color: 'yellow',
           desc: 'Praesent eget eros eget lorem iaculis fermentum aliquet sagittis urna. Nunc maximus pulvinar urna, nec suscipit velit mattis id.',
-          img: 'https://images.pexels.com/photos/20003297/pexels-photo-20003297/free-photo-of-a-snowy-road-with-trees-and-snow-on-the-ground.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+          img: 'https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-1920x1080-1432.jpg',
         },
         {
-          text: 'Development',
+          text: 'Cybersecurity',
           color: 'yellow',
           desc: 'Sed sit amet ante dignissim, ultrices ex in, blandit purus. Donec neque nisl, pellentesque quis feugiat vitae, laoreet at purus.',
-          img: 'https://dummyimage.com/1920x1080/0000FF/6c757d.jpg',
+          img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUKzhC0O0kkqRCnCn8ycB6Ew1aEQyj6MZ8A&usqp=CAU',
         },
         {
-          text: 'Security',
+          text: 'Cybersecurity',
           color: 'yellow',
           desc: 'In dignissim nunc nisi, porttitor sodales massa placerat vitae. Vivamus suscipit ex tellus, ut ultrices orci feugiat at. Vestibulum suscipit elit eu purus ullamcorper vulputate.',
-          img: 'https://dummyimage.com/1920x1080/800000/6c757d.jpg',
+          img: 'https://iinfosec.com/hs-fs/hubfs/Website-Graphics-2022/page-headers/hero-banner-background-36-v3.jpg?width=1920&height=1080&name=hero-banner-background-36-v3.jpg',
         },
         {
-          text: 'Integrity',
+          text: 'Software Development',
           color: 'yellow',
           desc: 'Nullam laoreet commodo ipsum, sit amet egestas magna porttitor ac. Ut vel semper metus. Fusce aliquet nisl in aliquet rutrum.',
           img: 'https://dummyimage.com/1920x1080/800080/6c757d.jpg',
@@ -159,6 +193,7 @@
           await waitForMs(3000)
           await deleteSentence(eleRef)
           $('#desc').fadeOut('slow')
+          //$('body').css('background-image', 'url(' + carouselList[i].img + ')')
           await waitForMs(1575)
           i++
           if (i >= carouselList.length) {
@@ -169,14 +204,19 @@
 
       function updateHero(eleRef, color, desc, img) {
         //$(eleRef).css('color', color)
+        //$('body').css('background-image', 'url(' + img + ')')
+        waitForMs(2500)
         $('#desc').html(desc).fadeIn('slow')
-        $('body').css('background-image', 'url(' + img + ')')
         //$('body').animate({ 'background-image': 'url(' + img + ')' }, 'slow')
       }
 
       function waitForMs(ms) {
         return new Promise((resolve) => setTimeout(resolve, ms))
       }
+    </script>
+    <script>
+      var copy = document.querySelector('.logos-slide').cloneNode(true)
+      document.querySelector('.logos').appendChild(copy)
     </script>
   </body>
 </html>
