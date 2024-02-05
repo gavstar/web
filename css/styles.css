@@ -139,7 +139,7 @@ h1,
 
 h1,
 .h1 {
-  font-size: calc(1.575rem + 1.3vw);
+  font-size: calc(1.575rem + 1.1vw);
 }
 @media (min-width: 1200px) {
   h1,
