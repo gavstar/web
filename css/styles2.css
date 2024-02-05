@@ -80,6 +80,6 @@ body .typing-container .input-cursor {
 body {
   height: 100%;
 }
-section {
+section .part {
   height: 100vh;
 }
