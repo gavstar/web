@@ -11,7 +11,6 @@ body .typing-container .input-cursor {
   height: 47px;
   background-color: #ffffff;
   animation: blink 0.5s linear infinite alternate;
-  text-align: center !important;
 }
 @keyframes blink {
   0% {
