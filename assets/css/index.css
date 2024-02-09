@@ -1286,8 +1286,8 @@ video {
     rgba(255, 255, 255, 0.6) 100%
   );
   border-radius: 50%;
-  width: 115px;
-  height: 115px;
+  width: 135px;
+  height: 135px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   overflow: visible;
 }
