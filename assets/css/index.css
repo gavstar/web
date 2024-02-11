@@ -3,7 +3,7 @@ body {
 }
 .display-1 {
   font-family: 'Lexend', sans-serif;
-  font-size: 4.4rem;
+  font-size: 3.4rem;
   line-height: 1.1;
   margin-bottom: 0.5rem !important;
 }
@@ -1150,7 +1150,6 @@ a {
   padding-top: 9rem;
   padding-bottom: 4rem;
   background-image: url('../img/background-1.jpg');
-  height: 100vh;
 }
 .cid-sz51CvBpkK .mbr-overlay {
   backdrop-filter: blur(3.5px);
