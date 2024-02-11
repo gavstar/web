@@ -8,7 +8,7 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-125px * 45)); /*up 1*/
+    transform: translateX(calc(-125px * 46)); /*up 1*/
   }
 }
 .slider {
@@ -19,9 +19,9 @@ body {
   width: auto;
 }
 .slider .slide-track {
-  animation: scroll 38s linear infinite;
+  animation: scroll 58s linear infinite;
   display: flex;
-  width: calc(125px * 89); /*up 2*/
+  width: calc(125px * 91); /*up 2*/
 }
 .slider .slide {
   height: 50px;
