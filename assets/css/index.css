@@ -1,5 +1,6 @@
 body {
   font-family: Lexend;
+  background-image: url('../img/background-1.jpg') !important;
 }
 .display-1 {
   font-family: 'Lexend', sans-serif;
@@ -1147,9 +1148,9 @@ a {
   }
 }
 .cid-sz51CvBpkK {
-  padding-top: 9rem;
-  padding-bottom: 4rem;
-  background-image: url('../img/background-1.jpg');
+  padding-top: 11rem;
+  padding-bottom: 5rem;
+  /* background-image: url('../img/background-1.jpg'); */
 }
 .cid-sz51CvBpkK .mbr-overlay {
   backdrop-filter: blur(3.5px);
@@ -1279,9 +1280,9 @@ video {
   color: #263d5a;
 }
 .cid-sz51Oyfrn1 {
-  padding-top: 8rem;
+  padding-top: 2rem;
   padding-bottom: 8rem;
-  background-image: url('../img/background-2.jpg');
+  /* background-image: url('../img/background-2.jpg'); */
 }
 .cid-sz51Oyfrn1 .mbr-iconfont {
   display: inline-flex;
